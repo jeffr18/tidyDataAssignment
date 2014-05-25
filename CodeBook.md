@@ -5,13 +5,15 @@
 The following fields are what make up the tidy_data.txt file:
 
 1) "subject_id" - The subject id for the study participant (1:30)
+
 2) "activity_label" - The human-readable description of the activity
-    * WALKING
-    * WALKING_UPSTAIRS
-    * WALKING_DOWNSTAIRS
-    * SITTING
-    * STANDING
-    * LAYING
+* WALKING
+* WALKING_UPSTAIRS
+* WALKING_DOWNSTAIRS
+* SITTING
+* STANDING
+* LAYING
+
 3) "data_name" - The name of the data field which was used to calculate the average
     * time_bodyAcc_mean_X           
     * time_bodyAcc_mean_Y         
@@ -78,5 +80,6 @@ The following fields are what make up the tidy_data.txt file:
     * freq_bodyAccMag_std          
     * freq_bodyBodyAccJerkMag_std   
     * freq_bodyBodyGyroMag_std      
-    * freq_bodyBodyGyroJerkMag_std 
+    * freq_bodyBodyGyroJerkMag_std
+    
 4) "average_value" - The average value calculated for the corresponding subject, activity, and data field.
